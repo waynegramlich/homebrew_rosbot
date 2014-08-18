@@ -33,14 +33,24 @@ The following PCB's are available:
 * Bus based PCBS:
 
   * [BeagleBone Black Bus Module](https://github.com/waynegramlich/bus_beaglebone).
-    {more here}
+    This module simple provides an ATmega324P as a bridging processor
+    between a Beaglebone Black and the bus.
 
   * [Bridge Encoders Sonar Bus Module](https://github.com/waynegramlich/bus_bridge_encoders_sonar).
-    {more here}
+    This module is optimized to privide just provide a 1 Ampere dual
+    H-bridge, 2 quadrature encoders, and 2 sonars that connect to the
+    bus.
 
   * [Power Bus Module](https://github.com/waynegramlich/bus_power).
-    {more here}
+    This module strictly provides power to the bus with polarity
+    protection, over current protection and an on-off switch.
 
   * [Raspberry Pi Bus Module](https://github.com/waynegramlich/bus_raspberry_pi).
-    {more here}
+    This module simple provides an ATmega324P as a bridging processor
+    between a Raspberry Pi Modle B+ and the bus.
+
+  * [Sonar10 Bus Module](https://github.com/waynegramlich/sonar10).
+    This module provides a bus interface to drive up to 10 HC-SR04
+    sonar modules.
+
 
