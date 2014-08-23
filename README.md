@@ -74,8 +74,8 @@
 9. Install a partition table on /dev/sdb:
 
         sfdisk --force /dev/sdb < ubuntu_ros_partitions.sfdisk
-	partprobe /dev/sdb
-	partprobe -s /dev/sdb
+        partprobe /dev/sdb
+        partprobe -s /dev/sdb
 
    The partprobe -s command may mention "msdos", just ignore that.
 
