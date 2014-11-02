@@ -201,7 +201,7 @@ The following PCB's are available:
 
 * [Dual Slot Encoders](https://github.com/waynegramlich/dual_slot_encoders).
     The dual slot encoders PCB provides a quadrature encoder using
-    a couple of optical interrupter slot sensors.  A encode disk
+    a couple of optical interrupter slot sensors.  An encoder disk
     is needed to complete the system.
 
 * Bus based PCBS:
@@ -221,9 +221,11 @@ The following PCB's are available:
 
   * [Raspberry Pi Bus Module](https://github.com/waynegramlich/bus_raspberry_pi).
     This module simple provides an ATmega324P as a bridging processor
-    between a Raspberry Pi Modle B+ and the bus.
+    between a Raspberry Pi Modle B+ and the bus.  (This one is not getting
+    much work right now due to the difficulty of getting ROS up and running
+    on a Raspberry Pi.)
 
-  * [Sonar10 Bus Module](https://github.com/waynegramlich/sonar10).
+  * [Sonar10 Bus Module](https://github.com/waynegramlich/bus_sonar10).
     This module provides a bus interface to drive up to 10 HC-SR04
     sonar modules.
 
