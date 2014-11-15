@@ -229,4 +229,12 @@ The following PCB's are available:
     This module provides a bus interface to drive up to 10 HC-SR04
     sonar modules.
 
+  * [Grove12 Bus Module](https://github.com/waynegramlich/bus_grove10).
+    This module provides 12 Grove system connectors (4 dedicated to
+    I<Sup>2</Sup>C communication.)  The
+    [Grove System](http://www.seeedstudio.com/wiki/GROVE_System) was
+    developed by [SeeedStudio](http://www.seeedstudio.com/) and
+    has 100+ modules that can be plugged into the connectors.
+
+
 
