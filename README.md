@@ -16,7 +16,7 @@ eventually be a robot bus that people/organizations engineer
 modules for. Until there is a clear marketplace winner, the
 following robot bus architecture is being used:
 
-    http://gramlich.net/projects/robus/specifications.html
+* [Bus Specification](http://gramlich.net/projects/robus/specifications.html)
 
 Alas, these files have not really been pushed up into a git
 repository yet.
@@ -53,7 +53,7 @@ For a given PCB revision directory, the following files tend to be found:
 * `fp-lib_table`.  The KiCAD footprint library table.
 * *pcb_name*`.kicad_pcb`.  The KiCAD PCB file.
 * *pcb_name*`.net`.  The KiCAD network list.
-* *pcb_iname`.ino`.   The optional Arduino compatible source file.
+* *pcb_name`.ino`.   The optional Arduino compatible source file.
 * `Makefile`.  An optional Makefile to build the .ino file.
 
 There may be other random stuff in the directory as well.
@@ -142,7 +142,7 @@ There are a number of PCB's that are still in the gestation phase:
   to be a value that fits.
 
 * Dyna Bus Module.  This is a board optimized for talking to the
-  Dynamixel robot servo line (e.g. ath AX-12A) by Robotis.
+  Dynamixel robot servo line (e.g. the AX-12A) by Robotis.
 
 
 
